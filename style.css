@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #bfc9d1;
+}
+
+.container{
+    background-color: #eaefef;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+}
+
+.container h1 {
+    font-size: 40px;
+    color: #25343f;
+}
+
+#description{
+    width: 100%;
+    font-size: 20px;
+    color: #25343f;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid #25343f;
+}
+
+#amount{
+    width: 100%;
+    font-size: 20px;
+    color: #25343f;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid #25343f;
+}
+
+.section-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#type{
+    width: 100%;
+    font-size: 20px;
+    color: #25343f;
+    height: 40px;
+    text-align: center;
+}
+
+#add-btn{
+    width: 100%;
+    font-size: 20px;
+    color: #25343f;
+    height: 40px;
+    text-align: center;
+    background-color: #25343f;
+    color: #eaefef;
+    border: none;
+}
+
+.container h3{
+    font-size: 24px;
+    color: #25343f;
+    margin-bottom: -15px;
+}
+
+#transaction-list{
+    width: 100%;
+    height: 150px;
+    background-color: #25343f0c;
+    border: none;
+    padding: 20px;
+    overflow-y: auto;
+    list-style: number;
+    color: #25343f;
+    scrollbar-width: thin;
+}
+
+li{
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: start;
+}
